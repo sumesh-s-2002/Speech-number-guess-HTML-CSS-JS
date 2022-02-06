@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+img{
+    height: 100px;
+    width: 90px;
+}
+h2{
+    margin : 12px 0px;
+}
+.result{
+    margin : 18px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.box{
+    border : 1px solid white;
+    padding: 10px 12px;
+}
